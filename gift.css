@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: orange;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 5rem;
+    /* background-attachment:fixed;
+    background-position-x: center; */
+}
+
+
+h4{
+    font-size: 10vh;
+    font-style: italic;
+}
+p{
+    font-size: 4vh;
+}
+
+#yadee{
+    height: 8vh;
+    width: 20vh;
+    font-size: 3vh;
+    border-radius: 10%;
+    color: brown;
+    background-color: aqua;
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+}
+#special{
+    height: 8vh;
+    width: 20vh;
+    font-size: 3vh;
+    border-radius: 10%;
+    color: brown;
+    background-color: aqua;
+    /* display: flex; */
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+}

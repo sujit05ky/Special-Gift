@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightblue;
+}
+
+.front{
+    background-color: yellow;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-direction: column;
+    height : 100vh;
+    gap: 3rem;
+}
+
+#btn{
+    background-color: pink;
+    /* flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    height : 10vh;
+    width: 20vh;
+    font-size: 3vh;
+    border-radius: 50%;
+    border: none;
+}
