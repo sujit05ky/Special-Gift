@@ -1,30 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-color: lightblue;
+    background-repeat: inherit;
 }
 
-.front{
+.front {
     background-color: yellow;
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
-   flex-direction: column;
-    height : 100vh;
+    flex-direction: column;
+    height: 100vh;
     gap: 3rem;
 }
 
-#btn{
+p{
+    size: 4vh;
+}
+
+
+#btn {
     background-color: pink;
     /* flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center; */
-    height : 10vh;
+    height: 10vh;
     width: 20vh;
     font-size: 3vh;
     border-radius: 50%;
