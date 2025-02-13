@@ -35,3 +35,16 @@ function moveSlide(direction) {
     const offset = -currentIndex * 100;
     slides.style.transform = `translateX(${offset}%)`;
 }
+
+
+let index = 0;
+const slides = document.querySelectorAll(".gallery-slide img, .gallery-slide video");
+
+function moveSlide(step) {
+    slides[index].classList.remove("active");  // Hide current image/video
+    index = (index + step + slides.length) % slides.length;  // Move to the next or previous
+    slides[index].classList.add("active");  // Show new image/video
+}
+
+// Initialize first image as active
+slides[index].classList.add("active");
