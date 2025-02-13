@@ -1,0 +1,77 @@
+h2 {
+    /* font-size: 8vh; */
+    padding: 0;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: aqua;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("background3.jpg");
+    background-size: cover; /* Scales the image to cover the whole screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /*Prevents tiling*/
+    height: 100vh; /* Ensures full-page height */
+    margin: 0; /* Removes default margin */
+    /* background-color: pink; */
+}
+
+.gallery-container {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    /* border: 2px solid #ddd; */
+    border-radius: 10px;
+}
+
+.gallery-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5sease-in-out;
+    position:fixed,
+}
+
+.gallery-slide img, .gallery-slide video{
+    width: 60%;
+    height: 100%;
+    border-right: 2px solid #ddd;
+    display : none;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.gallery-slide img.active, .gallery-slide video.active {
+    display: block;
+    margin: auto;
+}
+
+button.prev {
+    left: 10px;
+}
+
+button.next {
+    right: 10px;
+}
