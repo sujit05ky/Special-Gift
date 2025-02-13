@@ -1,8 +1,8 @@
 body{
     background-color: lightblue;
     /* background-color: yellow; */
-    background-image: url("backe.jpg");
-    background-size: 95%; /* Scales the image to cover the whole screen */
+    background-image: url("background4.jpg");
+    background-size: 100%; /* Scales the image to cover the whole screen */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /*Prevents tiling*/
     height: 100vh; /* Ensures full-page height */
@@ -10,7 +10,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     
 }
 

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Kigeye</title>
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <div class="container">
+        <div class="boxes">
+            <button id="saraswati">Together</button>
+            <button id="birth">Samagam Special</button>
+            
+        </div>
+        <script>
+            let Saraswati = document.querySelector("#saraswati");
+            Saraswati.addEventListener("click", function () {
+                location.href = "together.html";
+            });
+            let birthday = document.querySelector("#birth");
+            birthday.addEventListener("click", function () {
+                location.href = "samagam.html";
+            });
+            
+        </script>
+    </div>
+</body>
+</html>
