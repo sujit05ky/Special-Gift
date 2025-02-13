@@ -6,8 +6,8 @@
 body {
     background-color: lightblue;
     background-repeat: inherit;
-    /* background-image: url("back.jpg");
-    background-size: cover; /* Scales the image to cover the whole screen */
+    background-image: url("background2.jpg");
+    background-size: cover; /* Scales the image to cover the whole screen
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
     height: 100vh; /* Ensures full-page height */
@@ -15,7 +15,7 @@ body {
 }
 
 .front {
-    background-color: yellow;
+    /* background-color: yellow; */
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
@@ -23,10 +23,13 @@ body {
     flex-direction: column;
     height: 100vh;
     gap: 3rem;
+    padding: 1vh;
 }
 
 #para{
-    size: 10vh;
+    font-size: 4vh;
+    color: #0a0101;
+    font-family: cursive;
 }
 
 
