@@ -48,3 +48,4 @@ function moveSlide(step) {
 
 // Initialize first image as active
 slides[index].classList.add("active");
+

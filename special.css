@@ -1,4 +1,3 @@
-
 h2 {
     /* font-size: 8vh; */
     padding: 0;
@@ -19,7 +18,13 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: pink;
+    background-image: url("background1.jpg");
+    background-size: cover; /* Scales the image to cover the whole screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /*Prevents tiling*/
+    height: 100vh; /* Ensures full-page height */
+    margin: 0; /* Removes default margin */
+    /* background-color: pink; */
 }
 
 .gallery-container {
